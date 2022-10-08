@@ -1,0 +1,189 @@
+@media screen and (max-width: 898px){
+    ul li {
+        font-size: 4vw;   
+    }
+    .main_content_text {
+        top: 30%;
+    }
+    .contant_about_left img {
+        display: none;
+    }
+    ul li {
+        text-align: center;
+    }
+    .container_servises  {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .shinomontaj img {
+        width: 90%;
+        float: none;
+      }
+    .engine_repair img {
+        width: 90%;
+        float: none;
+        top: 90px;
+      }
+    .shinomontaj h3 {
+        top: 10px;
+      }
+    .shinomontaj p {
+        top: 11px;
+      }
+    .engine_repair h3{
+        top: 10px;
+      }
+    .engine_repair p {
+        top: 11px;
+      }
+    .chassis_repair img {
+        width: 90%;
+        float: none;
+        top: 90px;
+      }
+    .chassis_repair_text h3 {
+        top: 10px;
+      }
+    .chassis_repair_text p {
+        top: 11px;
+      } 
+    .vehicle_diagnostics img {
+        width: 90%;
+        float: none;
+        top: 90px;
+      }
+    .vehicle_diagnostics h3{
+        top: 10px;
+      }
+    .vehicle_diagnostics p {
+        top: 11px;
+      }
+    .car_wash img {
+        display: none;
+      }
+    .adaptive_carwash img {
+        width: 90%;
+        float: none;
+        top: 90px;
+        display: block;
+        margin-left: 2%;
+      }
+    .car_wash_text h3 {
+        top: 10px;
+      }
+    .car_wash_services li {
+        top: 11px;
+      }
+    .car_wash_logo img {
+        display: none;
+      }
+    .body_repair img {
+        width: 90%;
+        float: none;
+        top: 90px;
+      }
+    .body_repair_text h3 {
+        top: 10px;
+       margin-top: 70px;
+       margin-right: 0;
+      }
+    .body_repair_text p {
+        top: 11px;
+    }
+    .headlight_polishing img {
+        width: 90%;
+        float: none;
+        top: 40px;
+      }
+    .headlight_polishing_text h3 {
+        top: 40px;
+      }
+    .headlight_polishing_text p {
+        top: 41px;
+      }
+    .anti_corrosion img {
+        width: 90%;
+        float: none;
+        top:60px;
+      }
+    .anti_corrosion_text h3 {
+        top:50px;
+    }
+    .anti_corrosion_text p {
+        top: 51px;
+    }
+    .removing img {
+        width: 90%;
+        float: none;
+        top:60px;
+      }
+    .removing_text h3 {
+        top:50px;
+    }
+    .removing_text p {
+        top: 51px;
+    }
+
+
+    }
+    
+
+
+@media screen and (min-width: 898px) {
+    .adaptive_carwash img {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 734px){
+    .header__navbar a {
+        display: none;
+    }
+    .container {
+        height: 10%;
+    }
+    .main_content_text {
+        top: 30%;
+    }
+}
+@media screen and (min-width: 735px){
+    .dropbtn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .header__number span {
+        display: none;
+    }
+    .dropbtn {
+        position: absolute;
+        left: 100px;
+      }
+      .main_content_text {
+        top: 20%;
+    }
+}
+@media screen and (max-width: 512px) {
+    .main_content_text {
+        top: 23%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 344px) {
+    .contant_about_right h1, h2 {
+        font-size: 1em;
+    }
+    .container_about {
+        height: 310px;
+    }
+    .main_content_text {
+        top: 15%;
+    }
+}

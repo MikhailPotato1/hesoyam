@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+   
+}
+.container {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 100%;
+    background-color: black;
+    z-index: 9;
+}
+
+.header__navbar a {
+  text-decoration: none;
+    margin-right: 20px;
+    font-size: 150%;
+    font-family: 'Marck Script';
+    color: rgb(255, 255, 255);
+}
+
+#header__logo h1 {
+    font-family: 'Anton';
+    color: white;
+    cursor: pointer;
+    
+   
+}
+.header__number span {
+    font-family: 'Anton';
+    font-size: 150%;
+    color: white;
+} 
+
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Marck Script';
+  }
+  
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #b4b4b4;
+  }
+  
+
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    top: 10%;
+
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Marck Script';
+    text-align: center;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  
+  .show {display:block;}
+
+/* header end */ 
+
+.main_content_fon img {
+  width: 100%;
+}
+
+.main_content_text {
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left: 25%;
+  font-family: 'Yeseva One';
+  font-size: 2vw;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 4px 4px 4px black;
+  
+}
+
+.main_content_text h1 {
+  margin: auto;
+  padding: auto;
+}
+.main_content_text h3{
+  margin: auto;
+  padding: auto;
+}
+/*main end*/
+.container_about {
+  background-color: black;
+  height: 500px;
+}
+
+.contant_about_left img {
+  float: left;
+}
+.contant_about_right h1, h2{
+  margin-top: -4px;
+  text-align: center;
+  font-family: 'Marck Script';
+  color: #f1f1f1;
+}
+.contant_about_right  h2 {
+  margin-top: 10px;
+}
+
+ul li {
+  font-size: 1.5vw;
+  list-style-image: url(/ikon1.png);
+  color: #f1f1f1;
+  margin-top: 2%;
+}
+
+/*about end */
+
+/* servises start */ 
+
+.container_servises {
+  background-color: black;
+  width: 100%;
+  height: 5000px;
+}
+
+.shinomontaj img {
+  width: 45%;
+  border-radius: 20px;
+  float: left;
+  margin-left: 2%;
+  padding: 10px;
+}
+
+.shinomontaj h3 {
+  color: #f1f1f1;
+  font-family: 'Marck Script';
+  font-size: 3vw;
+  position: relative;
+  top: 100px;
+}
+
+.shinomontaj p {
+  color: #f1f1f1;
+  font-size: 1em;
+  position: relative;
+  top: 100px;
+}
+
+/* engine */ 
+.engine_repair img {
+  width: 45%;
+  border-radius: 20px;
+  float: right;
+  margin-right: 2%;
+  padding: 10px;
+  position: relative;
+  top: 300px;
+}
+.engine_repair h3 {
+  color: #f1f1f1;
+  font-family: 'Marck Script';
+  font-size: 3vw;
+  margin-top: 80px;
+  position: relative;
+  top: 230px;
+}
+
+.engine_repair p {
+  color: #f1f1f1;
+  font-size: 1em;
+  position: relative;
+  top: 230px;
+}
+
+/* engine end */ 
+/* сhassics */
+.chassis_repair img {
+  width: 45%;
+  border-radius: 20px;
+  float: left;
+  margin-left: 2%;
+  padding: 10px;
+  position: relative;
+  top: 400px;
+}
+
+.chassis_repair_text h3 {
+  color: #f1f1f1;
+  font-family: 'Marck Script';
+  font-size: 3vw;
+  margin-top: 80px;
+  position: relative;
+  top: 500px;
+}
+.chassis_repair_text p {
+  color: #f1f1f1;
+  font-size: 1em;
+  position: relative;
+  top: 500px;
+}
+
+/* сhassics  end*/
+/* diagnostic */
+.vehicle_diagnostics img {
+  width: 45%;
+  border-radius: 20px;
+  float: right;
+  margin-right: 2%;
+  padding: 10px;
+  position: relative;
+  top: 700px;
+}
+
+.vehicle_diagnostics h3 {
+  color: #f1f1f1;
+  font-family: 'Marck Script';
+  font-size: 3vw;
+  margin-top: 80px;
+  position: relative;
+  top: 650px;
+}
+
+.vehicle_diagnostics p {
+  color: #f1f1f1;
+  font-size: 1em;
+  position: relative;
+  top: 650px;
+}
+
+/* diagnostic  end*/
+
+/*carwash*/
+.car_wash img {
+  width: 20%;
+  border-radius: 20px;
+  float: left;
+  margin-right: 2%;
+  padding: 15px;
+  position: relative;
+  top: 850px;
+}
+
+.car_wash_text h3 {
+  color: #f1f1f1;
+  font-family: 'Marck Script';
+  font-size: 3vw;
+  margin-top: 80px;
+  position: relative;
+  top: 1050px;
+}
+
+.car_wash_services li {
+  color: #f1f1f1;
+  font-size: 2vw;
+  position: relative;
+  top: 1050px;
+}
+
+.car_wash_logo img {
+  position: relative;
+  left: 50%;
+  top: 565px;
+}
+
+/*carwash end*/
+
+/* body repair */ 
+.body_repair img {
+  width: 45%;
+  border-radius: 20px;
+  float: right;
+  margin-right: 2%;
+  padding: 10px;
+  position: relative;
+  top: 1250px;
+}
+
+.body_repair_text h3 {
+  color: #f1f1f1;
+  font-family: 'Marck Script';
+  font-size: 3vw;
+  margin-top: 190px;
+  position: relative;
+  top: 1090px;
+  margin-right: 70%;
+}
+
+.body_repair_text p {
+  color: #f1f1f1;
+  font-size: 1em;
+  position: relative;
+  top: 1090px;
+}
+
+/* body repair end*/
+
+/*headlight_polishing*/
+.headlight_polishing img {
+  width: 45%;
+  border-radius: 20px;
+  float: left;
+  margin-left: 2%;
+  padding: 10px;
+  position: relative;
+  top: 1350px;
+}
+
+.headlight_polishing_text h3 {
+  color: #f1f1f1;
+  font-family: 'Marck Script';
+  font-size: 3vw;
+  position: relative;
+  top: 1450px;
+ 
+}
+
+.headlight_polishing_text p {
+  color: #f1f1f1;
+  font-size: 1em;
+  position: relative;
+  top: 1450px;
+}
+
+/*headlight_polishing end*/
+
+/* anti_corrosion */
+.anti_corrosion img {
+  width: 45%;
+  border-radius: 20px;
+  float: right;
+  margin-right: 2%;
+  padding: 10px;
+  position: relative;
+  top: 1750px;
+}
+
+.anti_corrosion_text h3 {
+  color: #f1f1f1;
+  font-family: 'Marck Script';
+  font-size: 3vw;
+  position: relative;
+  top: 1600px;
+ 
+}
+
+.anti_corrosion_text p {
+  color: #f1f1f1;
+  font-size: 1em;
+  position: relative;
+  top: 1600px;
+}
+
+/* anti_corrosion end */
+
+/* removing */
+.removing img {
+  width: 45%;
+  border-radius: 20px;
+  float: left;
+  margin-left: 2%;
+  padding: 10px;
+  position: relative;
+  top: 1900px;
+}
+
+.removing_text h3 {
+  color: #f1f1f1;
+  font-family: 'Marck Script';
+  font-size: 3vw;
+  position: relative;
+  top: 2000px;
+ 
+}
+
+.removing_text p {
+  color: #f1f1f1;
+  font-size: 1em;
+  position: relative;
+  top: 2000px;
+}
+/* removing end */
+
+
+
+
